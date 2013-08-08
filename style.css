@@ -725,9 +725,9 @@ form small {
 
 #top-social li.ts-rss .ts-icon { background: url("images/icons/social/rss.png") no-repeat center center; }
 
-#top-social li.ts-vimeo a { background-color: #0590B8; }
+#top-social li.ts-linkedin a { background-color: #0590B8; }
 
-#top-social li.ts-vimeo .ts-icon { background: url("images/icons/social/vimeo.png") no-repeat center center; }
+#top-social li.ts-linkedin .ts-icon { background: url("images/icons/social/linkedin.png") no-repeat center center; }
 
 #top-social li.ts-youtube a { background-color: #F33; }
 

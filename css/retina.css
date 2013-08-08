@@ -34,7 +34,7 @@ only screen and (                min-resolution: 2dppx) {
 
 #top-social li.ts-rss .ts-icon { background-image: url("../images/icons/social/rss@2x.png"); }
 
-#top-social li.ts-vimeo .ts-icon { background-image: url("../images/icons/social/vimeo@2x.png"); }
+#top-social li.ts-linkedin .ts-icon { background-image: url("../images/icons/social/linkedin@2x.png"); }
 
 #top-social li.ts-youtube .ts-icon { background-image: url("../images/icons/social/youtube@2x.png"); }
 
