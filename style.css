@@ -791,7 +791,6 @@ form small {
 #logo img {
     display: block;
     max-width: 100%;
-    padding-top: 20px;
 }
 
 #logo a.standard-logo { display: block; }
