@@ -9,6 +9,9 @@
 
 @media only screen and (max-width: 979px) {
 
+.flexslider .slider-wrap > .slide {
+    background-position-x: -37px !important;
+}
 
 body { 
     transition: all .2s linear; 
@@ -124,7 +127,7 @@ div.rs-menu span {
 
 #top-bar {
     text-align: center;
-    height: auto;
+    height: 23px;
 }
 
 #top-menu,
@@ -210,6 +213,9 @@ div.rs-menu span {
 /* Tablet Portrait size to Tablet Landscape (devices and browsers) */
 @media only screen and (min-width: 768px) and (max-width: 979px) {
 
+.flexslider .slider-wrap > .slide {
+    background-position-x: -37px !important;
+}
 
 #wrapper {
     width: 768px !important;
@@ -1636,4 +1642,9 @@ div.alignright,
 }
 
 
+.flexslider .slider-wrap > .slide {
+    display: none !important;
 }
+
+}
+
