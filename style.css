@@ -592,7 +592,7 @@ form small {
 #top-bar {
     position: relative;
     background-color: #EEE;
-    height: 40px;
+    height: 23px;
 }
 
 #top-menu {
@@ -667,7 +667,8 @@ form small {
     display: block;
     position: relative;
     width: 40px;
-    height: 40px;
+    height: 22px;
+    
 }
 
 #top-social li,
@@ -676,6 +677,8 @@ form small {
     float: left;
     width: auto;
     overflow: hidden;
+    
+    line-height: 21px;
 }
 
 #top-social li a {
@@ -1440,7 +1443,15 @@ form small {
 .flex-direction-nav {margin: 0; padding: 0; list-style: none; border: none;} 
 
 .flexslider {position: relative;margin: 0; padding: 0;}
-.flexslider .slider-wrap > .slide {display: none; -webkit-backface-visibility: hidden;}
+.flexslider .slider-wrap > .slide {display: none; -webkit-backface-visibility: hidden;
+-webkit-backface-visibility: hidden;
+border-radius: 18px;
+background-image: url('images/flowchart.jpg');
+background-repeat: no-repeat;
+background-color: white;
+background-position-x: 54px;
+height: 354px;
+}
 .flexslider .slider-wrap img {width: 100%; display: block;}
 .flex-pauseplay span {text-transform: capitalize;}
 
@@ -1814,6 +1825,7 @@ html[xmlns] .slider-wrap {display: block;}
     font-size: 14px;
     color: #333;
     text-shadow: 1px 1px 1px #FFF;
+    margin-top: 20px;
 }
 
 #landing-area ul.landing-features {
@@ -1823,6 +1835,7 @@ html[xmlns] .slider-wrap {display: block;}
     line-height: 22px;
     color: #555;
     text-shadow: 1px 1px 1px #FFF;
+    margin-top: 50px;
 }
 
 ul.landing-features li { margin-top: 7px; }
@@ -3806,6 +3819,7 @@ blockquote.quote-right {
     color: #FFF;
     text-align: center;
     line-height: 23px;
+    
 }
 
 .product-feature2 { padding-left: 52px; }

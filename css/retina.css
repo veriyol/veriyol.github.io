@@ -16,33 +16,33 @@ only screen and (                min-resolution: 2dppx) {
 
 #logo a.retina-logo { display: inline-block; }
 
-#top-social li.ts-facebook .ts-icon { background-image: url("../images/icons/social/facebook@2x.png"); }
+#top-social li.ts-facebook .ts-icon { background-image: url("../images/icons/social/facebook.png"); }
 
-#top-social li.ts-twitter .ts-icon { background-image: url("../images/icons/social/twitter@2x.png"); }
+#top-social li.ts-twitter .ts-icon { background-image: url("../images/icons/social/twitter.png"); }
 
-#top-social li.ts-gplus .ts-icon { background-image: url("../images/icons/social/gplus@2x.png"); }
+#top-social li.ts-gplus .ts-icon { background-image: url("../images/icons/social/gplus.png"); }
 
-#top-social li.ts-dribbble .ts-icon { background-image: url("../images/icons/social/dribbble@2x.png"); }
+#top-social li.ts-dribbble .ts-icon { background-image: url("../images/icons/social/dribbble.png"); }
 
-#top-social li.ts-forrst .ts-icon { background-image: url("../images/icons/social/forrst@2x.png"); }
+#top-social li.ts-forrst .ts-icon { background-image: url("../images/icons/social/forrst.png"); }
 
-#top-social li.ts-blogger .ts-icon { background-image: url("../images/icons/social/blogger@2x.png"); }
+#top-social li.ts-blogger .ts-icon { background-image: url("../images/icons/social/blogger.png"); }
 
-#top-social li.ts-flickr .ts-icon { background-image: url("../images/icons/social/flickr@2x.png"); }
+#top-social li.ts-flickr .ts-icon { background-image: url("../images/icons/social/flickr.png"); }
 
-#top-social li.ts-pinterest .ts-icon { background-image: url("../images/icons/social/pinterest@2x.png"); }
+#top-social li.ts-pinterest .ts-icon { background-image: url("../images/icons/social/pinterest.png"); }
 
-#top-social li.ts-rss .ts-icon { background-image: url("../images/icons/social/rss@2x.png"); }
+#top-social li.ts-rss .ts-icon { background-image: url("../images/icons/social/rss.png"); }
 
-#top-social li.ts-linkedin .ts-icon { background-image: url("../images/icons/social/linkedin@2x.png"); }
+#top-social li.ts-linkedin .ts-icon { background-image: url("../images/icons/social/linkedin.png"); }
 
-#top-social li.ts-youtube .ts-icon { background-image: url("../images/icons/social/youtube@2x.png"); }
+#top-social li.ts-youtube .ts-icon { background-image: url("../images/icons/social/youtube.png"); }
 
-#top-social li.ts-phone .ts-icon { background-image: url("../images/icons/social/phone@2x.png"); }
+#top-social li.ts-phone .ts-icon { background-image: url("../images/icons/social/phone.png"); }
 
-#top-social li.ts-mail .ts-icon { background-image: url("../images/icons/social/mail@2x.png"); }
+#top-social li.ts-mail .ts-icon { background-image: url("../images/icons/social/mail.png"); }
 
-#top-social li.ts-linkedin .ts-icon { background-image: url("../images/icons/social/linkedin@2x.png"); }
+#top-social li.ts-linkedin .ts-icon { background-image: url("../images/icons/social/linkedin.png"); }
 
 #top-social li .ts-icon {
     background-size: 16px 16px;
