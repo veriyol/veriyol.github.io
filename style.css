@@ -1739,6 +1739,7 @@ html[xmlns] .slider-wrap {display: block;}
 }
 
 #top-search {
+    display: none;
     position: absolute;
     width: 180px;
     top: 50%;
