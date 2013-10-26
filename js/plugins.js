@@ -8,7 +8,7 @@
  * 
  * Open source under the BSD License. 
  * 
- * Copyright © 2008 George McGinley Smith
+ * Copyright ï¿½ 2008 George McGinley Smith
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -177,7 +177,7 @@ jQuery.extend( jQuery.easing,
  * 
  * Open source under the BSD License. 
  * 
- * Copyright © 2001 Robert Penner
+ * Copyright ï¿½ 2001 Robert Penner
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without modification, 
@@ -2096,7 +2096,7 @@ b,d){return this.bind(b,function(e){var f=c(e.target);if(f.is(a))return d.apply(
 $.fn.mobileMenu = function(options) {
 	
 	var defaults = {
-			defaultText: 'Go to Page...',
+			defaultText: 'MenÃ¼',
 			className: 'select-menu',
 			subMenuClass: 'sub-menuitem',
 			subMenuDash: '&nbsp;&nbsp;&nbsp;'

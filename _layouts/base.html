@@ -15,6 +15,8 @@
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
     <link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" />
     <link rel="stylesheet" href="css/rs/css/rs-settings.css" type="text/css" />
+    <link rel="stylesheet" href="css/refineslide.css" type="text/css" />
+    
     <link rel="stylesheet" href="css/responsive.css" type="text/css" />
     <link rel="shortcut icon" href="/images/favicon.png">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
@@ -28,6 +30,7 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.plugins.js"></script>
     <script type="text/javascript" src="js/jquery.themepunch.revolution.js"></script>
+    <script type="text/javascript" src="js/jquery.refine.js"></script>
     <!-- ============================================
         Document Title
     ============================================= -->
@@ -51,6 +54,7 @@
             <ul>
               <li><a href="/"><div>ANASAYFA</div></a></li>
               <li><a href="/services.html"><div>SERVİSLER</div></a></li>
+              <li><a href="/products.html"><div>ÜRÜNLER</div></a></li>
               <li><a href="/projects.html"><div>PROJELER</div></a></li>
               <li><a href="/references.html"><div>REFERANSLAR</div></a></li>
               <li><a href="/contact.html"><div>İLETİŞİM</div></a></li>
@@ -101,6 +105,7 @@
           <div id="primary-menu">
             <ul id="main-menu">
               <li{% if page.class == "services" %} class="current"{% endif %}><a href="/services.html"><div>SERVİSLER</div><span>Alabileceğiniz <br>hizmetler</span></a></li>
+              <li{% if page.class == "products" %} class="current"{% endif %}><a href="/products.html"><div>ÜRÜNLER</div><span>Ürünlerimiz</span></a></li>
               <li{% if page.class == "projects" %} class="current"{% endif %}><a href="/projects.html"><div>PROJELER</div><span>Devam eden <br>projelerimiz</span></a></li>
               <li{% if page.class == "references" %} class="current"{% endif %}><a href="/references.html"><div>REFERANSLAR</div><span>Kimlerle <br> çalıştık?</span></a></li>
               <li{% if page.class == "contact" %} class="current"{% endif %}><a href="/contact.html"><div>İLETİŞİM</div><span>Bize ulaşmak <br>için</span></a></li>

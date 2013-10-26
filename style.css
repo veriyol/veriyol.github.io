@@ -1495,7 +1495,7 @@ html[xmlns] .slider-wrap {display: block;}
     width: 102px !important;
     height: 55px !important;
     cursor: pointer;
-    margin: 0 !important;
+    margin: 4px !important;
 }
 
 .rs-thumb-wrap a {
