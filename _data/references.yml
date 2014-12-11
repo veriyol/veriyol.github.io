@@ -1,0 +1,16 @@
+- name: Koinim
+  logo_file: koinim.jpg
+  description: Türkiye'nin ilk Bitcoin/Litecoin borsası.
+  url: https://koinim.com
+- name: İncir
+  logo_file: incir.jpg
+  description: Yazılım, Tasarım ve Hosting gibi tüm altyapısı hazır, teknik bilgi gerektirmeyen, kullanımı kolay eTicaret mağazası.
+  url: http://www.incir.com
+- name: Mortakı
+  logo_file: mortaki.jpg
+  description: Takı, Yüzük, Kolye, Küpe, Bilezik, Kendi Takını Tasarla
+  url: https://www.mortaki.com
+- name: Futbolist
+  logo_file: futbolist.png
+  description: Türkiye ve dünya futbolunda ne olup bittiği, yüzlerce kaynaktan hazırlanmış zengin ve görsel özetler halinde her sabah akıllı telefonunuzda!
+  url: http://futbolist.co

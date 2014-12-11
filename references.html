@@ -1,67 +1,33 @@
 ---
 layout: base
 title: Referanslar
-class: references
-short_description: neler yaptık?
+slug: references
+short_description: Neler yaptık?
 ---
-
 <div id="content">
-
-    {%include top_page_header.html%}
-    <div class="content-wrap">
-
-
-        <div class="container clearfix">
-
-
-
-
-            <div id="portfolio" class="clearfix">
-
-
-                <div class="portfolio-item pf-uielements">
-                        
-                            <div class="portfolio-image">
-                            
-                                <a href="#"><img src="images/references/incir-logo.png" alt="Grey UI Kit" title="Grey UI Kit" /></a>
-                                
-                                <div class="portfolio-overlay">
-                                
-                                    <div class="portfolio-overlay-wrap">
-                                
-                                        <p>Proje yönetimi ve geliştirme.</p>
-                                        
-                                        <span><span></span></span>
-                                        
-                                        
-                                    
-                                    </div>
-                                    
-                                    <div class="p-overlay-icons clearfix">
-                                    
-                                        <a href="http://www.incir.com" class="p-o-link"></a>
-                                    
-                                    </div>
-                                
-                                </div>
-                            
-                            </div>
-                            
-                            <div class="portfolio-title">
-                            
-                                <h3 title="İncir"><a href="http://www.incir.com">İncir</a></h3>
-                            
-                            </div>
-                        
-                        </div>
-
-
+  {%include top_page_header.html%}
+  <div class="content-wrap">
+    <div class="container clearfix">
+      <div id="portfolio" class="portfolio-2 clearfix">
+      {% for item in site.data.references %}
+        <div class="portfolio-item pf-uielements">
+          <div class="portfolio-image">
+            <a href="#"><img src="assets/images/{{ page.slug }}/{{ item.logo_file }}" alt="Grey UI Kit" title="Grey UI Kit" /></a>
+            <div class="portfolio-overlay">
+              <div class="portfolio-overlay-wrap">
+                <p>{{ item.description }}</p>
+              </div>
+              <div class="p-overlay-icons clearfix">
+                <a href="{{ item.url }}" class="p-o-link" target="_blank"></a>
+              </div>
             </div>
-
+          </div>
+          <div class="portfolio-title">
+            <h3 title="{{ item.name }}"><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></h3>
+          </div>
         </div>
-
-
+      {% endfor %}
+      </div>
     </div>
-
-
+  </div>
 </div>
