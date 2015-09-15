@@ -634,5 +634,6 @@ $(window).load(function() {
         });
     
     }
-
+    
+    $('#notice-modal').modal();
 });
